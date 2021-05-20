@@ -1,7 +1,7 @@
 "use strict";
 
 fetch(
-    "https://raw.githubusercontent.com/BezzubovEgor/test-filler/main/dist/result.json"
+    "https://raw.githubusercontent.com/BezzubovEgor/test-filler/main/dist/spo.json"
 )
     .then(function (data) {
         return data.json();
