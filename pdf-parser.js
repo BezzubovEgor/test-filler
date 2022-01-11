@@ -16,7 +16,7 @@ function format(str) {
     return str.trim().replace(Q_REG, '').replace(/–/g, '-');
 }
 
-readFile("./data/test-data.pdf")
+readFile("./data/OOP.pdf")
     .then(buffer => pdf(buffer))
     .then(data => data.text
         .split('\n')
